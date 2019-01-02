@@ -1,0 +1,76 @@
+.ListItems {
+	color: #46529d;
+	/*border: 1px solid red;*/
+
+}
+.ListItems span {
+
+	margin:0 auto;
+	display: inline-block;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 30px;
+	border: 0.3px solid #ccc;
+}
+
+.ListItems span.title {
+	background: #2ebaee;
+	color: #fff
+}
+.ListItems span.name, 
+form input[type=text] {
+	width: 20%;
+	padding: 10px;
+}
+.ListItems span.price, 
+form input[type=number] {
+	width: 25%;
+	padding: 10px;
+}
+.ListItems span.action, 
+form input[type=submit] {
+	width: 25%;
+	padding: 10px;
+	margin-bottom:  10px;
+
+}
+.ListItems span.icon {
+	color: #fff;
+	cursor: pointer;
+	color: red;
+	/*width: 100%;*/
+	background-color: #fff;
+}
+form input {
+	padding: 10px;
+	background: #ebebeb;
+	border: transparent;
+	border: 0.3px solid #ccc;
+}
+form input[type=submit] {
+	background: #2ebaee;
+	border:0.3px solid  #2ebaee;
+	color: #fff;
+	cursor: pointer;
+
+}
+
+.poz {
+
+	/*border: 1px solid black;*/
+	display: inline-flex;
+	width: 30%;
+	align-items: center;
+}
+.poz .name1{
+	min-width: 100%;
+	/*margin: 50px;*/
+	background-color: #2ebaee;
+
+}
+.poz .price1 {
+	min-width: 100%;
+	background-color: #2ebaee;
+	/*margin: 50px;*/
+}
+
